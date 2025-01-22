@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="log-nav">
+        <div class="log-nav-logo">
+            <div class="log-logo">
+                <img src="education-baba-high-resolution-logo-removebg-preview.png" alt="">
+               <p>Education <span>Baba</span></p> 
+            </div>
+        </div>  
+
+
+     <div class="login-container">
+        <h2>Login</h2>
+        <form action="/login" method="POST">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <br>
+            <button type="submit">
+                <a href="index.html">Login</a>
+            </button>
+            <p>Don't have any account? <a href="signup.html">Signup</a></p>
+        </form>
+     </div>
+</body>
+</html>

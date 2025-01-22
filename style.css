@@ -1,0 +1,661 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* index page css */
+.navbar{
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    
+}
+
+.logo img{
+    height: 300px;
+    width: 350px;
+}
+
+.logo p{
+    width: 200px;
+    margin-top: 80px;
+    font-size: 60px;
+    color: white;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+}
+
+span{
+    color: red;  
+
+}
+
+.n-lists{
+    margin-left: 350px;
+    height: 150px;
+    width: 250px;
+    margin-top: 50px;
+}   
+
+#list {
+    margin-left: 10px;
+    width: 90px;
+    height: 33px;
+    
+    
+    cursor: pointer;
+}
+
+.n-lists a{
+    color: red;
+    margin-left: 50px;
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Lucida Sans';
+    font-weight: 600;
+}
+
+.n-lists a:hover{
+    color: #fff;
+}   
+
+.nav-btn{
+    margin-left: 20px;
+    height: 100px;
+    width: 110px;  
+    margin-bottom: 30px;
+}
+
+
+#btns{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 90px;
+    height: 33px;
+    color: white;
+    background-color: red;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    cursor: pointer;
+}
+
+
+#btns a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    text-emphasis: none;
+
+}
+
+#btns:hover{
+    background-color: royalblue;
+}
+
+input{
+    height: 34px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 700;
+    border: none;
+    margin-left: 100px;
+    padding-left: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.nav-list i{
+    background-color: white;
+    color: black;
+    height: 27px;
+    width: 30px;
+    text-align: center;
+    padding-top: 7px;
+    font-size: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.hero-sec{
+    height: 450px;
+    margin-top: 2px;
+}
+
+.hero-sec-1{
+    background-image: url("hero-sec.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+.hero-sec-1 p{
+    color: white;
+    padding-top: 70px;
+    padding-left: 100px;
+    font-size: 45px;
+    font-weight: 900;
+    font-family: 'Lucida Sans';
+}
+
+.hero-sec-2{
+    height: 450px;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+
+h2{
+    color: blue;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-weight: 900;
+    font-size: 50px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+
+.hero-sec-2 li{
+    text-align: start;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 250px;
+    margin-top: 10px;
+    font-family: 'Lucida Sans';
+}
+
+
+.content{
+    height: 50px;
+}
+
+h3{
+    color: blue;
+    text-align: center;
+    font-family: 'Lucida Sans';
+    font-weight: 900;
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+
+.content-box{
+    height: 500px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.box-1 {
+    height: 400px;
+    width: 300px;
+    background-image: url(volunteer.jpg);
+    background-size: cover;
+}
+
+.box-2 {
+    height: 400px;
+    width: 300px;
+    background-image: url(students-raising-hand.jpg);
+    background-size: cover;
+}
+
+.box-3 {
+    height: 400px;
+    width: 300px;
+    background-image: url(parent-child.jpg);
+    background-size: cover;
+}
+
+.box p{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: start;
+    padding-left: 20px;
+    padding-top: 280px;
+    font-family: 'Lucida Sans';
+}
+
+.footer-content{
+    height: 520px;
+    margin-top: 550px;
+}
+
+.footer-section h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 10px;
+    color: royalblue;
+    
+}
+
+.footer-section p {
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    font-weight: 900;
+    font-style: italic;
+    text-align: center;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    color: red;
+}   
+
+.footer-section ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    font-size: 30px;
+}   
+
+.footer-section ul li {
+    margin-top: 05px;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+#links{
+    color: red;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 35px;
+    font-family: 'Lucida Sans';
+}
+
+.footer-section span{
+    color: black;
+}
+
+#links:hover{
+    color: blue;
+}
+
+.footer-bottom{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lucida Sans';
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+
+/* courses page css */
+
+.courses{
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;  
+}
+
+.courses h1{
+    color: aqua;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+.courses h3{
+    color: brown;
+    margin-top: 25px;
+    text-align: start;
+    margin-left: 20px;
+}
+
+.course{
+    height: 400px;
+    width: 2180px;
+    display: flex;
+    border: 0.5px solid gray;
+}
+
+.boxx{
+    height: 388px;
+    width: 350px;
+    margin-left: 10px;
+    margin-top: 5px;
+    border: 0.5px solid gray;
+}
+
+.course-box img{
+    height: 150px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 80px;
+}
+
+
+
+.course p{
+    color: blue;
+    text-align: center;
+    
+}
+
+.course button{
+    margin-left: 80px;
+    margin-top: 20px;
+    width: 150px;
+    height: 50px;
+    font-size: 1rem;
+    background-color: red;
+    border: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.course button:hover{
+    background-color: blue;
+    color: red;
+}
+
+button a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.boxx h3{
+    color: blue;
+    text-align: center;
+}
+
+
+.courses-navbar{
+    height: 70px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 555px;
+}
+
+.c-logo{
+    color: white;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.nav-list{
+    margin-left: 200px;
+    display: flex;
+}
+
+.c-lists{
+    margin-left: 50px;
+    display: flex;
+}   
+
+.c-lists a{
+    color: red;
+    margin-left: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'Lucida Sans';
+    font-weight: 600;
+}
+
+.c-lists a:hover{
+    color: white;
+}   
+
+
+/* login page */
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 530px;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.login-container input {
+    width: 95%;
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+.login-container p {
+    margin-top: 10px;
+}   
+
+/* Signup page */
+
+.signup-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 530px;
+}
+
+.signup-container h2 {
+    margin-bottom: 20px;
+    color: royalblue;
+    font-family: 'Lucida Sans';
+}
+
+.signup-container label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.signup-container input{
+    width: 95%;
+    padding: 5px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.signup-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.signup-container button:hover {
+    background-color: #45a049;
+}
+
+.signup-container p {
+    margin-top: 10px;
+}   
+
+/* login navbar & Signup page css */
+
+.log-nav{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+
+.log-logo{
+    display: flex;
+    
+}
+
+.log-logo img {
+    height: 150px;
+    width: 250px;
+    margin-left: 250px;
+    
+}
+
+.log-logo p {
+    color: white;
+    font-size: 70px;
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    margin-top: 30px;
+}
+
+/* about page css */
+
+.about-section{
+    height: 100px;
+    width: 100%;
+    margin-top: 50px;
+}
+.about-section p{
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+    color: royalblue;
+    margin-bottom: 50px;
+}
+
+.about-section img{
+    height: 500px;
+    width: 100%;
+}
+
+
+#btns0{
+    margin-top: 1550px;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 50px;
+    background-color: #4CAF50;
+    margin-left: 550px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+}
+
+/* contact page css */
+
+.contact-form{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 530px;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.contact-form input {
+    width: 95%;
+    padding: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #45a049;
+}
+
+.contact-form p {
+    margin-top: 10px;
+}
+
+/* responsive css */
+
