@@ -311,23 +311,25 @@ h3{
 }
 
 .courses h1{
-    color: aqua;
+    color: #de4a82;
     font-size: 50px;
     padding-top: 20px;
+    text-transform: uppercase;
 }
 
 .courses h3{
-    color: brown;
+    color: #9e6886;
     margin-top: 25px;
     text-align: start;
     margin-left: 20px;
+    text-transform: uppercase;
 }
 
 .course{
     height: 400px;
     width: 2180px;
     display: flex;
-    border: 0.5px solid gray;
+    border: 1px solid #ccc;
 }
 
 .boxx{
@@ -335,8 +337,9 @@ h3{
     width: 350px;
     margin-left: 10px;
     margin-top: 5px;
-    border: 0.5px solid gray;
+    border: 0.2px solid #ccc;
 }
+
 
 .course-box img{
     height: 150px;
@@ -359,9 +362,9 @@ input{
 }
 
 .course p{
-    color: blue;
+    color: #54065c;
     text-align: center;
-    
+    font-weight: 600;
 }
 
 .course button{
@@ -390,7 +393,7 @@ button a{
 
 
 .boxx h3{
-    color: blue;
+    color: royalblue;
     text-align: center;
 }
 
