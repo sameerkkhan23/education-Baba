@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="log-nav">
+        <div class="log-nav-logo">
+            <div class="log-logo">
+                <img src="education-baba-high-resolution-logo-removebg-preview.png" alt="">
+               <p>Education <span>Baba</span></p> 
+            </div>
+        </div>  
+
+        <div class="form-container">
+            <h4>Feedback Form</h4>
+            <form id="feedbackForm">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="feedback">Feedback:</label>
+                    <textarea id="feedback" name="feedback" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+            <div id="responseMessage"></div>
+        </div>
+        <script>
+            
+document.getElementById('feedbackForm').addEventListener('submit', function(event) {
+    event.preventDefault();
+    const name = document.getElementById("name").value;
+    const email = document.getElementById("email").value;
+    const feedback = document.getElementById("feedback").value;
+
+    const responseMessage = document.getElementById('responseMessage');
+    responseMessage.innerHTML = `<p>Thank you, ${name}! Your feedback has been received.</p>`;
+    document.getElementById('feedbackForm').reset(); // Adding reset functionality
+});
+        </script>
+</body>
+</html>
+    
